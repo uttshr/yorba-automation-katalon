@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dev.yorba.app/login')
+WebUI.navigateToUrl('https://staging.yorba.app/login')
 
 WebUI.setText(findTestObject('Object Repository/Signin/Page_Yorba Login/input_Email address_email'), 'uttam@outside.tech')
 
